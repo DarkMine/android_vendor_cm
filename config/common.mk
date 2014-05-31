@@ -145,7 +145,8 @@ PRODUCT_PACKAGES += \
     LockClock \
     CMUpdater \
     CMFota \
-    CMAccount
+    CMAccount \
+    Paclauncher
 
 # CM Hardware Abstraction Framework
 PRODUCT_PACKAGES += \
