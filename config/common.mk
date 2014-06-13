@@ -120,6 +120,10 @@ PRODUCT_COPY_FILES += \
 # T-Mobile theme engine
 include vendor/cm/config/themes_common.mk
 
+# Phone Number Location (Mokee)
+PRODUCT_COPY_FILES += \
+    vendor/cm/prebuilt/common/media/mokee-phoneloc.dat:system/media/mokee-phoneloc.dat
+
 # Required CM packages
 PRODUCT_PACKAGES += \
     Development \
